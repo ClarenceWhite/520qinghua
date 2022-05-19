@@ -9,7 +9,7 @@ appToken = read_config.load()['appToken']
 users = {
         "appToken": appToken,
         "page": 1,
-        "pageSize": 50
+        "pageSize": 100
 }
 
 class Users:
